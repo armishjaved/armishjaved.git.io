@@ -38,6 +38,8 @@ h1 {
 }
 #backdrop {
     display: flex;
+    /* text-align: center; */
+    align-items: center;
     flex-direction: column-reverse;
     justify-content: space-around;
     column-gap: 25px;
@@ -50,6 +52,7 @@ h1 {
 #backdrop-left-coloumn {
 
     width: 100%;
+    align-items: center;
     background-color: rgb(190, 189, 189);
     color: #21243D;
     border-radius: 10%;
@@ -80,6 +83,7 @@ h1 {
     /* height: 150px; */
     width: 100%;
     text-align: center;
+    align-items: center;
     background-color: #301934;
     padding: 3%;
 }
@@ -108,6 +112,8 @@ h1 {
 }
 #recent-posts-section {
     flex-basis: 50%;
+    text-align: center;
+    align-items: center;
     background-color:#AA98A9;
     padding: 3% 2%;
     margin-left: 5px;
@@ -123,6 +129,8 @@ h1 {
 .myh4 {
     font-weight: 400;
     font-size: 22px;
+    text-align:initial;
+    align-items:flex-start;
     color: #21243D;
     margin: 0;
 }
@@ -170,6 +178,10 @@ h2.my-h2 {
 
 section.featured-works {
     background-color:#AA98A9;
+    /* text-align: center;
+    align-items: center; */
+    text-align: left;
+    align-items: center;
     padding: 3% 5%;
     display: flex;
     flex-direction: column;
