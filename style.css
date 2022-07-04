@@ -81,10 +81,12 @@ h1 {
 }
 #backdrop-right-coloumn {
     /* height: 150px; */
+    /* display: flex; */
     width: 100%;
-    /* text-align: center; */
-    align-items: center;
+    text-align: center;
+    /* align-items:flex-end; */
     background-color: #301934;
+    /* justify-content: center; */
     padding: 3%;
 }
 @media screen and (min-width:480px) {
