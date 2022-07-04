@@ -57,7 +57,7 @@ h1 {
     color: #21243D;
     border-radius: 10%;
     padding: 3%;
-    text-align: center;
+    /* text-align: center; */
     margin-left: 35px;
     margin-right: 35px;
     margin-bottom: 30px;
@@ -82,7 +82,7 @@ h1 {
 #backdrop-right-coloumn {
     /* height: 150px; */
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
     align-items: center;
     background-color: #301934;
     padding: 3%;
